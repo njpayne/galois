@@ -6,5 +6,7 @@ package selections_programming;
 // reports whether the guess is correct or incorrect.
 
 public class heads_or_tails {
-
+	public static void main(String Args[]){
+		
+	}
 }
