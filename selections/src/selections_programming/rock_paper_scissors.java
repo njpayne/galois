@@ -10,5 +10,7 @@ package selections_programming;
 // The computer is scissor. You are rock. You won
 
 public class rock_paper_scissors {
-
+	public static void main(String Args[]){
+		
+	}
 }
