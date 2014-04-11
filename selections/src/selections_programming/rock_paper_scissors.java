@@ -40,7 +40,7 @@ public class rock_paper_scissors {
 			
 			else if (entry == 1){ // This is a rock (rock beats scissor, paper beats rock, tie)
 				
-			}
+			} // Review
 			
 			else if (entry == 2){ // This is a piece of paper (paper beats rock, scissor beats paper, tie)
 				
