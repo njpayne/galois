@@ -25,7 +25,7 @@ public class Restaurant_bill { // Create the new Restaurant bill class
 		total_pre_tip = meal + (meal * (tax_rate / 100));
 		total_post_tip = total_pre_tip + (total_pre_tip * (tip_rate / 100));
 		
-		System.out.println("Your total bill can be summarized as follows: ");
+		System.out.println("Your total bill can be summarized as follows:");
 		System.out.println("Meal cost: " + format(meal));
 		System.out.println("Tax amount: " + format((meal * (tax_rate / 100))));
 		System.out.println("Tip amount: " + format((total_pre_tip * (tip_rate / 100))));
