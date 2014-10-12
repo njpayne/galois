@@ -1,0 +1,7 @@
+package elementary_programming;
+
+public class stadium_seating {
+	public static void main(String[] args){
+		
+	}
+}

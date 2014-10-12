@@ -1,0 +1,12 @@
+package elementary_programming;
+
+import java.math.RoundingMode; // Import rounding mode for rounding
+import java.text.DecimalFormat; // Import decimal format library for decimal formatting
+import java.text.NumberFormat; // Import number formatting library
+import java.util.Scanner; // Scanner is used to read data from the console
+
+public class stadium_seating {
+	public static void main(String[] args){
+		
+	}
+}
