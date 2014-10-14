@@ -1,0 +1,13 @@
+package elementary_programming;
+
+import java.util.Scanner;
+
+public class housing_costs {
+	public static void main(String[] args){
+	
+		// Create a new scanner object
+		@SuppressWarnings("resource") // Note that without this, input is never closed
+		Scanner input = new Scanner(System.in); // This will be to process input
+		
+	}
+}

@@ -1,0 +1,7 @@
+package elementary_programming;
+
+public class housing_costs {
+	public static void main(String[] args){
+		
+	}
+}
