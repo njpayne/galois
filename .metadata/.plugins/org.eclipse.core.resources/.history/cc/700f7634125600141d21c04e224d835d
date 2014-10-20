@@ -29,8 +29,8 @@ public class How_much_insurance {
 		min_insurance = replacement_cost * 0.8;
 			
 		// Return the output to the user
-		System.out.println("Your building has a replacement cost of " + format(replacement_cost));
-		System.out.println("We recommend that you get at least " + format(min_insurance) +" dollars in insurance for your property!");			
+		System.out.println("Your building has a replacement cost of " + replacement_cost);
+		System.out.println("We recommend that you get at least " + min_insurance +" dollars in insurance for your property!");			
 	}
 	
 	// Create a new method that will format the string with the correct number of decimals
