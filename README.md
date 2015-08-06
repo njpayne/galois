@@ -1,4 +1,4 @@
-# Galois Java Programming Repository #
+# Galois #
 
 ## Java programming repository ##
 
@@ -10,7 +10,68 @@ This Java programming repository is the main repository that keeps track of the 
 
 ## Subjects Areas & Questions ##
 
-Coming soon ...
+### Elementary Programming ###
+
+### Selections ###
+
+### Mathematical Functions, Characters, Strings ###
+
+### Loops ###
+
+### Methods ###
+
+### Single Dimensional Arrays ###
+
+### Multi Dimensional Arrays ###
+
+### Objects And Classes ###
+
+### Object Oriented Thinking ###
+
+### Inheritance and Polymorphism ###
+
+### Exceptional Handling & Input / Output ###
+
+### Abstract Classes & Interfaces ###
+
+### JavaFX Basics ###
+
+### Event Driven Programming And Animations ###
+
+### Binary I/O ###
+
+### Recursion ###
+
+### Generics ###
+
+### Lists, Stacks, Queues & Priority Queues ###
+
+### Sets and Maps ###
+
+### Developing Efficient Algorithms ###
+
+### Sorting ###
+
+### Implementing Lists, Stacks, Queues & Priority Queues ###
+
+### Binary Search Trees ###
+
+### AVL Trees ###
+
+### Hashing ###
+
+### Graphs & Applications ###
+
+### Multi-threading & Parallel Programming ###
+
+### Networking ###
+
+### Java Database Programming ###
+
+### JavaServer Faces ###
+
+
+
 
 
 
