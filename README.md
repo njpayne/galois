@@ -18,7 +18,7 @@ The main references which the questions come from include:
 
 ### Elementary Programming (Project: elementary) ###
 
-- (Convert Celsius to Fahrenheit) Write a program that reads a Celsius degree in - a double value from the console, then converts it to Fahrenheit and displays the - result. The formula for the conversion is as follows: fahrenheit = (9 / 5) * celsius + 32
+- (Convert Celsius to Fahrenheit) Write a program that reads a Celsius degree in - a double value from the console, then converts it to Fahrenheit and displays the - result. The formula for the conversion is as follows: fahrenheit = (9 / 5) * celsius + 32 **(Program completed August 7, 2015)**
 
 - (Compute the volume of a cylinder) Write a program that reads in the radius
 and length of a cylinder and computes the area and volume using the following
