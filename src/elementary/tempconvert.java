@@ -1,9 +1,14 @@
 package elementary;
 
-import java.util.Scanner; // Import the scanner utility
-7
+import java.util.Scanner;
+
 /**
  * Created by nathanielpayne on 8/7/2015.
+ *
+ * Convert Celsius to Fahrenheit) Write a program that reads a Celsius degree in - a double value from the
+ * console, then converts it to Fahrenheit and displays the - result.
+ * The formula for the conversion is as follows: fahrenheit = (9 / 5) * celsius + 32
+ *
  */
 
 public class tempconvert {

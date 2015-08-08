@@ -20,40 +20,23 @@ The main references which the questions come from include:
 
 - (Convert Celsius to Fahrenheit) Write a program that reads a Celsius degree in - a double value from the console, then converts it to Fahrenheit and displays the - result. The formula for the conversion is as follows: fahrenheit = (9 / 5) * celsius + 32 **(Program completed August 7, 2015)**
 
-- (Compute the volume of a cylinder) Write a program that reads in the radius
-and length of a cylinder and computes the area and volume using the following
-formulas: area = radius * radius
+- (Compute the volume of a cylinder) Write a program that reads in the radius and length of a cylinder and computes the area and volume using the following formulas: area = radius * radius
 
-- (Convert feet into meters) Write a program that reads a number in feet, converts it
-to meters, and displays the result. One foot is 0.305 meter.
+- (Convert feet into meters) Write a program that reads a number in feet, converts it to meters, and displays the result. One foot is 0.305 meters.
 
-- (Financial application: calculate tips) Write a program that reads the subtotal
-and the gratuity rate, then computes the gratuity and total. For example, if the
-user enters 10 for subtotal and 15% for gratuity rate, the program displays $1.5
-as gratuity and $11.5 as total.
+- (Financial application: calculate tips) Write a program that reads the subtotal and the gratuity rate, then computes the gratuity and total. For example, if the
+user enters 10 for subtotal and 15% for gratuity rate, the program displays $1.5 as gratuity and $11.5 as total.
 
-- (Convert pounds into kilograms) Write a program that converts pounds into kilograms.
-The program prompts the user to enter a number in pounds, converts it
-to kilograms, and displays the result. One pound is 0.454 kilograms.
+- (Convert pounds into kilograms) Write a program that converts pounds into kilograms. The program prompts the user to enter a number in pounds, converts it to kilograms, and displays the result. One pound is 0.454 kilograms.
 
-- (Sum the digits in an integer) Write a program that reads an integer between 0 and
-1000 and adds all the digits in the integer. For example, if an integer is 932, the
-sum of all its digits is 14.
-Hint: Use the % operator to extract digits, and use the / operator to remove the
+- (Sum the digits in an integer) Write a program that reads an integer between 0 and 1000 and adds all the digits in the integer. For example, if an integer is 932, the sum of all its digits is 14. Hint: Use the % operator to extract digits, and use the / operator to remove the
 extracted digit. For instance, 932 % 10 = 2 and 932 / 10 = 93.
 
-- (Science: calculating energy) Write a program that calculates the energy needed
-to heat water from an initial temperature to a final temperature. Your program
-should prompt the user to enter the amount of water in kilograms and the initial
-and final temperatures of the water. The formula to compute the energy is
-Q = M * (finalTemperature – initialTemperature) * 4184
-where M is the weight of water in kilograms, temperatures are in degrees Celsius,
-and energy Q is measured in joules.
+- (Science: calculating energy) Write a program that calculates the energy needed to heat water from an initial temperature to a final temperature. Your program
+should prompt the user to enter the amount of water in kilograms and the initial and final temperatures of the water. The formula to compute the energy is Q = M * (finalTemperature – initialTemperature) * 4184
+where M is the weight of water in kilograms, temperatures are in degrees Celsius, and energy Q is measured in joules.
 
-- (Geometry: distance of two points) Write a program that prompts the user to enter
-two points (x1, y1) and (x2, y2) and displays their distance between them.
-The formula for computing the distance is sqrt((x2 x1)^2 + (y2 y1)^2). Note that
-you can use Math.pow(a, 0.5) to compute sqrt(a).
+- (Geometry: distance of two points) Write a program that prompts the user to enter two points (x1, y1) and (x2, y2) and displays their distance between them. The formula for computing the distance is sqrt((x2 x1)^2 + (y2 y1)^2). Note that you can use Math.pow(a, 0.5) to compute sqrt(a).
 
 - (Print a table) Write a program that displays the following table. Cast floatingpoint
 numbers into integers.
