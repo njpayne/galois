@@ -20,9 +20,9 @@ The main references which the questions come from include:
 
 - (Convert Celsius to Fahrenheit) Write a program that reads a Celsius degree in - a double value from the console, then converts it to Fahrenheit and displays the - result. The formula for the conversion is as follows: fahrenheit = (9 / 5) * celsius + 32 **(Program completed August 7, 2015)**
 
-- (Compute the volume of a cylinder) Write a program that reads in the radius and length of a cylinder and computes the area and volume using the following formulas: area = radius * radius ** (Program completed August 7, 2015) **
+- (Compute the volume of a cylinder) Write a program that reads in the radius and length of a cylinder and computes the area and volume using the following formulas: area = radius * radius **(Program completed August 7, 2015)**
 
-- (Convert feet into meters) Write a program that reads a number in feet, converts it to meters, and displays the result. One foot is 0.305 meters.
+- (Convert feet into meters) Write a program that reads a number in feet, converts it to meters, and displays the result. One foot is 0.305 meters. **(Program completed August 8, 2015)**
 
 - (Financial application: calculate tips) Write a program that reads the subtotal and the gratuity rate, then computes the gratuity and total. For example, if the
 user enters 10 for subtotal and 15% for gratuity rate, the program displays $1.5 as gratuity and $11.5 as total.

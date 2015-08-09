@@ -2,7 +2,7 @@ package elementary;
 
 import java.util.Scanner; // Import the scanner
 
-public class Area{
+public class area{
 
     // Create a program that computes the area of a circle
     public static void main(String[] args) {
