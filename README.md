@@ -34,12 +34,11 @@ extracted digit. For instance, 932 % 10 = 2 and 932 / 10 = 93.
 
 - (Science: calculating energy) Write a program that calculates the energy needed to heat water from an initial temperature to a final temperature. Your program
 should prompt the user to enter the amount of water in kilograms and the initial and final temperatures of the water. The formula to compute the energy is Q = M * (finalTemperature – initialTemperature) * 4184
-where M is the weight of water in kilograms, temperatures are in degrees Celsius, and energy Q is measured in joules.
+where M is the weight of water in kilograms, temperatures are in degrees Celsius, and energy Q is measured in joules. **(Program completed August 10, 2015)**
 
-- (Geometry: distance of two points) Write a program that prompts the user to enter two points (x1, y1) and (x2, y2) and displays their distance between them. The formula for computing the distance is sqrt((x2 x1)^2 + (y2 y1)^2). Note that you can use Math.pow(a, 0.5) to compute sqrt(a).
+- (Geometry: distance of two points) Write a program that prompts the user to enter two points (x1, y1) and (x2, y2) and displays their distance between them. The formula for computing the distance is sqrt((x2 x1)^2 + (y2 y1)^2). Note that you can use Math.pow(a, 0.5) to compute sqrt(a). **(Program completed August 10, 2015)**
 
-- (Print a table) Write a program that displays the following table. Cast floatingpoint
-numbers into integers.
+- (Print a table) Write a program that displays the following table. Cast floatingpoint numbers into integers.
 a b pow(a, b)
 1 2 1
 2 3 8
