@@ -9,6 +9,7 @@ This Java programming repository is the main repository that keeps track of the 
 The main references which the questions come from include:
 
 - [Liang's Intro to Java Programming, Comprehensive Version, 10/E](http://www.pearsonhighered.com/product?ISBN=0133761312 "Intro To Java Programming")
+- [ Sedgewick & Wayne's Algorithms (4th Edition) text which surveys the most important algorithms and data structures in use today!](http://algs4.cs.princeton.edu/home/ "Algorithms")
 
 ## Who Was Galois ##
 
