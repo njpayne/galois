@@ -31,7 +31,7 @@ user enters 10 for subtotal and 15% for gratuity rate, the program displays $1.5
 - (Convert pounds into kilograms) Write a program that converts pounds into kilograms. The program prompts the user to enter a number in pounds, converts it to kilograms, and displays the result. One pound is 0.454 kilograms. **(Program completed August 8, 2015)**
 
 - (Sum the digits in an integer) Write a program that reads an integer between 0 and 1000 and adds all the digits in the integer. For example, if an integer is 932, the sum of all its digits is 14. Hint: Use the % operator to extract digits, and use the / operator to remove the
-extracted digit. For instance, 932 % 10 = 2 and 932 / 10 = 93.
+extracted digit. For instance, 932 % 10 = 2 and 932 / 10 = 93. **(Program completed September 1, 2015)**
 
 - (Science: calculating energy) Write a program that calculates the energy needed to heat water from an initial temperature to a final temperature. Your program
 should prompt the user to enter the amount of water in kilograms and the initial and final temperatures of the water. The formula to compute the energy is Q = M * (finalTemperature – initialTemperature) * 4184
