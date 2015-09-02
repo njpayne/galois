@@ -26,7 +26,7 @@ The main references which the questions come from include:
 - (Convert feet into meters) Write a program that reads a number in feet, converts it to meters, and displays the result. One foot is 0.305 meters. **(Program completed August 8, 2015)**
 
 - (Financial application: calculate tips) Write a program that reads the subtotal and the gratuity rate, then computes the gratuity and total. For example, if the
-user enters 10 for subtotal and 15% for gratuity rate, the program displays $1.5 as gratuity and $11.5 as total.
+user enters 10 for subtotal and 15% for gratuity rate, the program displays $1.5 as gratuity and $11.5 as total. **(Skipped due to elementary nature)**
 
 - (Convert pounds into kilograms) Write a program that converts pounds into kilograms. The program prompts the user to enter a number in pounds, converts it to kilograms, and displays the result. One pound is 0.454 kilograms. **(Program completed August 8, 2015)**
 
@@ -45,9 +45,100 @@ a b pow(a, b)
 2 3 8
 3 4 81
 4 5 1024
-5 6 15625
+5 6 15625 **(Skipped & will return to this problem later)**
 
 ### Selections ###
+- The two roots of a quadratic equation
+ax2 + bx + c = 0 can be obtained using the following formula:
+r1 =
+-b + 2b2 - 4ac
+2a
+and r2 =
+-b - 2b2 - 4ac
+2a
+b2 - 4ac is called the discriminant of the quadratic equation. If it is positive, the
+equation has two real roots. If it is zero, the equation has one root. If it is negative,
+the equation has no real roots.
+Write a program that prompts the user to enter values for a, b, and c and displays
+the result based on the discriminant. If the discriminant is positive, display two
+roots. If the discriminant is 0, display one root. Otherwise, display “The equation
+has no real roots”.
+
+- A linear equation can be solved using
+Cramer’s rule. Write a program that prompts
+the user to enter a, b, c, d, e, and f and displays the result. If ad - bc is 0, report that “The equation has no solution.”
+
+- Write a program that randomly generates an integer between 1
+and 12 and displays the English month name January, February, …, December for
+the number 1, 2, …, 12, accordingly.
+
+- Write a program that prompts the user to enter an integer for
+today’s day of the week (Sunday is 0, Monday is 1, …, and Saturday is 6). Also
+prompt the user to enter the number of days after today for a future day and display
+the future day of the week.
+
+- Write a program that prompts the user to enter three integers
+and display the integers in non-decreasing order.
+
+- Write a program that prompts the user to enter a three-digit
+integer and determines whether it is a palindrome number. A number is palindrome
+if it reads the same from right to left and from left to right. Here
+
+- Write a program that lets the user guess whether the flip of
+a coin results in heads or tails. The program randomly generates an integer 0 or 1,
+which represents head or tail. The program prompts the user to enter a guess and
+reports whether the guess is correct or incorrect.
+
+- Write a program that displays a random coordinate in a rectangle.
+The rectangle is centered at (0, 0) with width 100 and height 200.
+
+- Write a program that plays the popular scissor-rockpaper
+game. (A scissor can cut a paper, a rock can knock a scissor, and a paper can
+wrap a rock.) The program randomly generates a number 0, 1, or 2 representing
+scissor, rock, and paper. The program prompts the user to enter a number 0, 1, or
+2 and displays a message indicating whether the user or the computer wins, loses,
+or draws.
+
+- Write a program that reads three edges for
+a triangle and computes the perimeter if the input is valid. Otherwise, display that
+the input is invalid. The input is valid if the sum of every pair of two edges is
+greater than the remaining edge.
+
+- Write a program that prompts the user to enter a
+point (x, y) and checks whether the point is within the circle centered at (0, 0)
+with radius 10. For example, (4, 5) is inside the circle and (9, 9) is outside the
+circle, as shown in Figure 3.7a.
+(Hint: A point is in the circle if its distance to (0, 0) is less than or equal to 10.
+The formula for computing the distance is 2(x2 - x1)2 + (y2 - y1)2. Test your
+program to cover all cases.) Two sample runs are shown below.
+
+- Write a program that prompts the user to enter
+a point (x, y) and checks whether the point is within the rectangle centered at
+(0, 0) with width 10 and height 5. For example, (2, 2) is inside the rectangle and
+(6, 4) is outside the rectangle, as shown in Figure 3.7b. (Hint: A point is in the
+rectangle if its horizontal distance to (0, 0) is less than or equal to 10 / 2 and its
+vertical distance to (0, 0) is less than or equal to 5.0 / 2. Test your program to
+cover all cases.)
+
+- Write a program that simulates picking a card from a deck
+of 52 cards. Your program should display the rank (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10,
+Jack, Queen, King) and suit (Clubs, Diamonds, Hearts, Spades) of the card.
+
+- Write a program that prompts the user to enter
+an integer and determines whether it is divisible by 5 and 6, whether it is divisible
+by 5 or 6, and whether it is divisible by 5 or 6, but not both.
+
+- Suppose a right triangle is placed in a plane as
+shown below. The right-angle point is placed at (0, 0), and the other two points
+are placed at (200, 0), and (0, 100). Write a program that prompts the user to enter
+a point with x- and y-coordinates and determines whether the point is inside the
+triangle.
+
+- Write a program that prompts the user to enter
+the exchange rate from currency in U.S. dollars to Chinese RMB. Prompt the user
+to enter 0 to convert from U.S. dollars to Chinese RMB and 1 to convert from
+Chinese RMB and U.S. dollars. Prompt the user to enter the amount in U.S. dollars
+or Chinese RMB to convert it to Chinese RMB or U.S. dollars, respectively.
 
 ### Mathematical Functions, Characters, Strings ###
 
