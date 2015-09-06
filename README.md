@@ -70,10 +70,7 @@ the user to enter a, b, c, d, e, and f and displays the result. If ad - bc is 0,
 
 - Write a program that randomly generates an integer between 1 and 12 and displays the English month name January, February, …, December for the number 1, 2, …, 12, accordingly. **(Program completed September 3, 2015)**
 
-- Write a program that prompts the user to enter an integer for
-today’s day of the week (Sunday is 0, Monday is 1, …, and Saturday is 6). Also
-prompt the user to enter the number of days after today for a future day and display
-the future day of the week.
+- Write a program that prompts the user to enter an integer for today’s day of the week (Sunday is 0, Monday is 1, …, and Saturday is 6). Also prompt the user to enter the number of days after today for a future day and display the future day of the week. **(Program completed September 4, 2015; Need to go back and complete this problem again using Java 8)**
 
 - Write a program that prompts the user to enter three integers
 and display the integers in non-decreasing order.
