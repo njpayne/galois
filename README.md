@@ -72,68 +72,38 @@ the user to enter a, b, c, d, e, and f and displays the result. If ad - bc is 0,
 
 - Write a program that prompts the user to enter an integer for today’s day of the week (Sunday is 0, Monday is 1, …, and Saturday is 6). Also prompt the user to enter the number of days after today for a future day and display the future day of the week. **(Program completed September 4, 2015; Need to go back and complete this problem again using Java 8)**
 
-- Write a program that prompts the user to enter three integers
-and display the integers in non-decreasing order.
+- Write a program that prompts the user to enter three integers and display the integers in non-decreasing order. (Later need to extend the program to enter n integers and to sort them in order)
 
-- Write a program that prompts the user to enter a three-digit
-integer and determines whether it is a palindrome number. A number is palindrome
-if it reads the same from right to left and from left to right. Here
+- Write a program that prompts the user to enter a three-digit integer and determines whether it is a palindrome number. A number is palindrome if it reads the same from right to left and from left to right. **(Program completed September 5, 2015 flying back from Toronto)**
 
-- Write a program that lets the user guess whether the flip of
-a coin results in heads or tails. The program randomly generates an integer 0 or 1,
-which represents head or tail. The program prompts the user to enter a guess and
-reports whether the guess is correct or incorrect.
+- Write a program that lets the user guess whether the flip of a coin results in heads or tails. The program randomly generates an integer 0 or 1, which represents head or tail. The program prompts the user to enter a guess and reports whether the guess is correct or incorrect. **(Program completed September 5, 2015 flying back from Toronto)**
 
-- Write a program that displays a random coordinate in a rectangle.
-The rectangle is centered at (0, 0) with width 100 and height 200.
+- Write a program that displays a random coordinate in a rectangle. The rectangle is centered at (0, 0) with width 100 and height 200.
 
 - Write a program that plays the popular scissor-rockpaper
-game. (A scissor can cut a paper, a rock can knock a scissor, and a paper can
-wrap a rock.) The program randomly generates a number 0, 1, or 2 representing
-scissor, rock, and paper. The program prompts the user to enter a number 0, 1, or
-2 and displays a message indicating whether the user or the computer wins, loses,
+game. (A scissor can cut a paper, a rock can knock a scissor, and a paper can wrap a rock.) The program randomly generates a number 0, 1, or 2 representing
+scissor, rock, and paper. The program prompts the user to enter a number 0, 1, or 2 and displays a message indicating whether the user or the computer wins, loses,
 or draws.
 
-- Write a program that reads three edges for
-a triangle and computes the perimeter if the input is valid. Otherwise, display that
-the input is invalid. The input is valid if the sum of every pair of two edges is
-greater than the remaining edge.
+- Write a program that reads three edges for a triangle and computes the perimeter if the input is valid. Otherwise, display that the input is invalid. The input is valid if the sum of every pair of two edges is greater than the remaining edge.
 
 - Write a program that prompts the user to enter a
-point (x, y) and checks whether the point is within the circle centered at (0, 0)
-with radius 10. For example, (4, 5) is inside the circle and (9, 9) is outside the
-circle, as shown in Figure 3.7a.
-(Hint: A point is in the circle if its distance to (0, 0) is less than or equal to 10.
-The formula for computing the distance is 2(x2 - x1)2 + (y2 - y1)2. Test your
-program to cover all cases.) Two sample runs are shown below.
+point (x, y) and checks whether the point is within the circle centered at (0, 0) with radius 10. For example, (4, 5) is inside the circle and (9, 9) is outside the
+circle. (Hint: A point is in the circle if its distance to (0, 0) is less than or equal to 10. The formula for computing the distance is 2(x2 - x1)2 + (y2 - y1)2. Test your program to cover all cases.)
 
 - Write a program that prompts the user to enter
-a point (x, y) and checks whether the point is within the rectangle centered at
-(0, 0) with width 10 and height 5. For example, (2, 2) is inside the rectangle and
-(6, 4) is outside the rectangle, as shown in Figure 3.7b. (Hint: A point is in the
-rectangle if its horizontal distance to (0, 0) is less than or equal to 10 / 2 and its
-vertical distance to (0, 0) is less than or equal to 5.0 / 2. Test your program to
-cover all cases.)
+a point (x, y) and checks whether the point is within the rectangle centered at (0, 0) with width 10 and height 5. For example, (2, 2) is inside the rectangle and (6, 4) is outside the rectangle, as shown in Figure 3.7b. (Hint: A point is in the rectangle if its horizontal distance to (0, 0) is less than or equal to 10 / 2 and its vertical distance to (0, 0) is less than or equal to 5.0 / 2. Test your program to cover all cases.)
 
-- Write a program that simulates picking a card from a deck
-of 52 cards. Your program should display the rank (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10,
-Jack, Queen, King) and suit (Clubs, Diamonds, Hearts, Spades) of the card.
+- Write a program that simulates picking a card from a deck of 52 cards. Your program should display the rank (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King) and suit (Clubs, Diamonds, Hearts, Spades) of the card.
 
 - Write a program that prompts the user to enter
-an integer and determines whether it is divisible by 5 and 6, whether it is divisible
-by 5 or 6, and whether it is divisible by 5 or 6, but not both.
+an integer and determines whether it is divisible by 5 and 6, whether it is divisible by 5 or 6, and whether it is divisible by 5 or 6, but not both.
 
 - Suppose a right triangle is placed in a plane as
-shown below. The right-angle point is placed at (0, 0), and the other two points
-are placed at (200, 0), and (0, 100). Write a program that prompts the user to enter
-a point with x- and y-coordinates and determines whether the point is inside the
-triangle.
+shown below. The right-angle point is placed at (0, 0), and the other two points are placed at (200, 0), and (0, 100). Write a program that prompts the user to enter
+a point with x- and y-coordinates and determines whether the point is inside the triangle.
 
-- Write a program that prompts the user to enter
-the exchange rate from currency in U.S. dollars to Chinese RMB. Prompt the user
-to enter 0 to convert from U.S. dollars to Chinese RMB and 1 to convert from
-Chinese RMB and U.S. dollars. Prompt the user to enter the amount in U.S. dollars
-or Chinese RMB to convert it to Chinese RMB or U.S. dollars, respectively.
+- Write a program that prompts the user to enter the exchange rate from currency in U.S. dollars to Chinese RMB. Prompt the user to enter 0 to convert from U.S. dollars to Chinese RMB and 1 to convert from Chinese RMB and U.S. dollars. Prompt the user to enter the amount in U.S. dollars or Chinese RMB to convert it to Chinese RMB or U.S. dollars, respectively.
 
 ### Mathematical Functions, Characters, Strings ###
 
