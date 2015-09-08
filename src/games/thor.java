@@ -1,7 +1,5 @@
 package games;
 import java.util.*;
-import java.io.*;
-import java.math.*;
 
 /**
  * Created by nathanielpayne on 9/7/2015. This is for the "Thor" program on CG"
@@ -12,7 +10,7 @@ import java.math.*;
  * Hint: You can use the debug stream to print initialTX and initialTY, if Thor seems not follow your orders.
  **/
 
-class Player {
+class thor {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
         int lightX = in.nextInt(); // the X position of the light of power
