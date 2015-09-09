@@ -23,25 +23,32 @@ public class descent {
                 anArray[i] = mountainH;
             }
 
+            // Determine which value in an array has the highest; Note that this is done using the new Java 8 streams
             OptionalInt highest = Arrays.stream(anArray).max();
             int big = highest.getAsInt();
 
             System.err.println("The tallest mountain has height: " + big);
             System.err.println("The current position is: " + spaceX);
 
-            // Find largest index
-            int largestindex = anArray[0];
-
-            for(int i = 0; i < anArray.length; i++) {
-                if(anArray[i] > largestindex)
+            // Find largest index checking up
+            int largest = anArray[0], largestindex = 0;
+            for (int i = 0; i < anArray.length; i++) {
+                if (anArray[i] >= largest) {
+                    largest = anArray[i];
                     largestindex = i;
+                }
             }
+
+            // Note that initially there were problems when multiple instances of the same height were in the
+            // array. If anArray[i] > largest, the first instance is returned. On the other hand,
+            // to change it, one  simply has to change the conditional from greater than to equals or greater than.
 
             System.err.println("The position of the largest index is at: " + largestindex);
 
-            if(spaceX == largestindex){
+            // Make a decision around when to fire (when the conditions for firing are met!)
+            if(spaceX == largestindex){ // If the X position hits the largest index, then fire
                 System.out.println("FIRE");
-            } else {
+            } else { // Otherwise, do not fire
                 System.out.println("HOLD");
             }
 
@@ -49,5 +56,4 @@ public class descent {
             // To debug: System.err.println("Debug messages...");
         }
     }
-
 }
