@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03fe0866-89ac-4d32-b368-764923e6ceaf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/games/temperature.java" afterPath="$PROJECT_DIR$/src/games/temperature.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/games/horseracingdual.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="galois.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="digits.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/elementary/digits.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="month.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/selections/month.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,11 +100,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="temperature.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="temperature.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/games/temperature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9263006">
-              <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="92" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="horseracingdual.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/games/horseracingdual.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4898844">
+              <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/games/descent.java" />
         <option value="$PROJECT_DIR$/src/games/mars.java" />
         <option value="$PROJECT_DIR$/src/games/temperature.java" />
+        <option value="$PROJECT_DIR$/src/games/horseracingdual.java" />
       </list>
     </option>
   </component>
@@ -285,9 +289,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -741,12 +745,13 @@
       <workItem from="1441769388704" duration="3529000" />
       <workItem from="1441921507945" duration="1081000" />
       <workItem from="1441948449475" duration="3382000" />
-      <workItem from="1442005918907" duration="9990000" />
+      <workItem from="1442005918907" duration="10141000" />
+      <workItem from="1442131255469" duration="2214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47962000" />
+    <option name="totallyTimeSpent" value="50327000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -835,13 +840,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/elementary/tempconvert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/elementary/volume.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1207,8 +1205,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/games/temperature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9263006">
-          <caret line="124" column="1" selection-start-line="124" selection-start-column="1" selection-end-line="124" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/horseracingdual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4898844">
+          <caret line="31" column="86" selection-start-line="31" selection-start-column="86" selection-end-line="31" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
