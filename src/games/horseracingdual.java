@@ -23,7 +23,7 @@ public class horseracingdual {
 
         // Find the max and min in the array and figure out the max difference
         OptionalInt highest = Arrays.stream(anArray).max(); //
-        int highestvalue = highest.getAsInt(); // Get the lowest value as an integer
+        int highestvalue = highest.getAsInt(); // Get the highest value as an integer
 
         OptionalInt lowest = Arrays.stream(anArray).min(); //
         int lowestvalue = lowest.getAsInt(); // Get the lowest value as an integer

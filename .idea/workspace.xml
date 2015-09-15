@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="03fe0866-89ac-4d32-b368-764923e6ceaf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/games/defibrillators.java" afterPath="$PROJECT_DIR$/src/games/defibrillators.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/games/descent.java" afterPath="$PROJECT_DIR$/src/games/descent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/games/horseracingdual.java" afterPath="$PROJECT_DIR$/src/games/horseracingdual.java" />
     </list>
     <ignored path="galois.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -77,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="descent.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="descent.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/games/descent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.6806358">
+              <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/src/games/horseracingdual.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,11 +115,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="defibrillators.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="defibrillators.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/games/defibrillators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.19653179">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,11 +175,11 @@
         <option value="$PROJECT_DIR$/src/selections/flip.java" />
         <option value="$PROJECT_DIR$/src/games/thor.java" />
         <option value="$PROJECT_DIR$/src/games/chasmbasic.java" />
-        <option value="$PROJECT_DIR$/src/games/descent.java" />
         <option value="$PROJECT_DIR$/src/games/mars.java" />
         <option value="$PROJECT_DIR$/src/games/temperature.java" />
         <option value="$PROJECT_DIR$/src/games/horseracingdual.java" />
         <option value="$PROJECT_DIR$/src/games/defibrillators.java" />
+        <option value="$PROJECT_DIR$/src/games/descent.java" />
       </list>
     </option>
   </component>
@@ -750,12 +752,12 @@
       <workItem from="1442005918907" duration="10141000" />
       <workItem from="1442131255469" duration="2811000" />
       <workItem from="1442207199039" duration="595000" />
-      <workItem from="1442262182350" duration="985000" />
+      <workItem from="1442262182350" duration="3777000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52504000" />
+    <option name="totallyTimeSpent" value="55296000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1187,10 +1189,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/games/descent.java">
+    <entry file="file://$PROJECT_DIR$/src/games/defibrillators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <caret line="70" column="42" selection-start-line="70" selection-start-column="42" selection-end-line="70" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/horseracingdual.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="25" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1207,20 +1219,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/games/horseracingdual.java">
+    <entry file="file://$PROJECT_DIR$/src/games/descent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/games/defibrillators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19653179">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.6806358">
+          <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

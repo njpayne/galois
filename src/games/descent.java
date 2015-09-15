@@ -11,49 +11,98 @@ public class descent {
     public static void main(String args[]) {
         Scanner in = new Scanner(System.in);
 
-        // game loop
-        while (true) {
-            int spaceX = in.nextInt();
-            int spaceY = in.nextInt();
+        // Need to ingest the string, change the , to a ., and then convert it to an integer
+        String lON = in.next();
+        Double currentlong = Double.parseDouble(lON.replace(",", ".")); // Want this in double form
+        System.err.println("The current longitude of the patient is " + currentlong);
+        in.nextLine();
 
-            int[] anArray = new int[8];
+        String lAT = in.next();
+        Double currentlat = Double.parseDouble(lAT.replace(",", ".")); // Want this in double form
+        System.err.println("The current latitude of the patient is " + currentlat);
+        in.nextLine();
 
-            for (int i = 0; i < 8; i++) {
-                int mountainH = in.nextInt(); // represents the height of one mountain, from 9 to 0. Mountain heights are provided from left to right.
-                anArray[i] = mountainH;
-            }
+        int n = in.nextInt();
+        System.err.println("The total number of defibrillators in the area are " + n);
+        in.nextLine();
 
-            // Determine which value in an array has the highest; Note that this is done using the new Java 8 streams
-            OptionalInt highest = Arrays.stream(anArray).max();
-            int big = highest.getAsInt();
+        // Create an array for the names
+        double[][] calcArray = new double[5][n]; // Make this 5 rows by n rows
 
-            System.err.println("The tallest mountain has height: " + big);
-            System.err.println("The current position is: " + spaceX);
-
-            // Find largest index checking up
-            int largest = anArray[0], largestindex = 0;
-            for (int i = 0; i < anArray.length; i++) {
-                if (anArray[i] >= largest) {
-                    largest = anArray[i];
-                    largestindex = i;
-                }
-            }
-
-            // Note that initially there were problems when multiple instances of the same height were in the
-            // array. If anArray[i] > largest, the first instance is returned. On the other hand,
-            // to change it, one  simply has to change the conditional from greater than to equals or greater than.
-
-            System.err.println("The position of the largest index is at: " + largestindex);
-
-            // Make a decision around when to fire (when the conditions for firing are met!)
-            if(spaceX == largestindex){ // If the X position hits the largest index, then fire
-                System.out.println("FIRE");
-            } else { // Otherwise, do not fire
-                System.out.println("HOLD");
-            }
-
-            // Write an action using System.out.println()
-            // To debug: System.err.println("Debug messages...");
+        // Create an array to fill with repeated values
+        for (int j = 0; j < n; j++){
+            calcArray[0][j] = currentlong;
+            calcArray[1][j] = currentlat;
         }
+
+        System.err.println("The value in position (1,2) of the array is : " + calcArray[1][n-1]);
+
+        String nameArray[] = new String[n]; //Create a new string to hold n names
+
+        for (int i = 0; i < n; i++) {
+            String dEFIB = in.nextLine(); // Need to parse this out now using string split
+            String[] address = dEFIB.split(";");
+
+            String dEFIBname = address[1]; // Need to return this at the end
+            System.err.println("The output name of the location is : " + dEFIBname);
+            nameArray[i] = dEFIBname; // This holds the name array which we query at the end
+
+            String dEFIBlong = address[4];
+            //System.err.println("The longitude location is :" + dEFIBlong);
+            Double dEFIBlongdouble = Double.parseDouble(dEFIBlong.replace(",", "."));
+            System.err.println("The output longitude is : " + dEFIBlongdouble);
+            calcArray[2][i] = dEFIBlongdouble; // This is the inputted value of the long
+
+            String dEFIBlat = address[5];
+            //System.err.println("The latitude location is :" + dEFIBlat);
+            Double dEFIBlatdouble = Double.parseDouble(dEFIBlat.replace(",", "."));
+            System.err.println("The output latitude is : " + dEFIBlatdouble);
+            calcArray[3][i] = dEFIBlatdouble; // This is the inputted value of the lat
+        }
+
+        System.err.println("The value in the name array in position (n-1) is : " + nameArray[n-1]);
+
+        // Need to calculate the distance
+        for (int k = 0; k < n; k++){
+            double longB = calcArray[2][k];
+            double longA = calcArray[0][k];
+            double latB = calcArray[1][k];
+            double latA = calcArray[3][k];
+            double x = (longB - longA) * Math.cos((latA + latB)/2);
+            double y = (latB - latA);
+
+            double finaldistance = Math.sqrt(Math.pow(x,2) + Math.pow(y,2)) * 6371;
+            calcArray[4][k] = finaldistance; // This is the final distance
+            System.err.println("The final calculated distance is : " + finaldistance); // This is the final distance
+        }
+
+        // Determine the smallest distance
+        double smallestdistance[] = new double[n]; // Create a new matrix for the smallest distance
+
+        for(int m = 0; m < n; m++){
+            smallestdistance[m] = calcArray[4][m];
+            System.err.println(smallestdistance[m]);
+        }
+
+        OptionalDouble lowest = Arrays.stream(smallestdistance).min(); //
+        Double lowestvalue = lowest.getAsDouble(); // Get the highest value as an integer
+
+        // Find the smallest index checking up
+        double smallest = smallestdistance[0], smallestindex = 0;
+        for (int i = 0; i < smallestdistance.length; i++) {
+            if (smallestdistance[i] < smallest) {
+                smallest = smallestdistance[i];
+                smallestindex = i;
+            }
+        }
+
+        System.err.println("I believe the smallest distance is: " + lowestvalue);
+        System.err.println("I believe the smallest distance index is: " + smallestindex);
+        int i = (int) smallestindex;
+        int finalanswerindex = (int) smallestindex;
+        System.err.println("I believe the revised smallest distance index is: " + finalanswerindex);
+        String finalanswer = nameArray[finalanswerindex];
+
+        System.out.println(finalanswer); // This is thename of the smallest distance
     }
 }
