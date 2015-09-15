@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03fe0866-89ac-4d32-b368-764923e6ceaf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/games/defibrillators.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/games/defibrillators.java" afterPath="$PROJECT_DIR$/src/games/defibrillators.java" />
     </list>
     <ignored path="galois.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -117,8 +116,8 @@
       <file leaf-file-name="defibrillators.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/games/defibrillators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4913295">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state vertical-scroll-proportion="0.19653179">
+              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -751,12 +750,12 @@
       <workItem from="1442005918907" duration="10141000" />
       <workItem from="1442131255469" duration="2811000" />
       <workItem from="1442207199039" duration="595000" />
-      <workItem from="1442262182350" duration="347000" />
+      <workItem from="1442262182350" duration="985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51866000" />
+    <option name="totallyTimeSpent" value="52504000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1220,8 +1219,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/games/defibrillators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4913295">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state vertical-scroll-proportion="0.19653179">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
