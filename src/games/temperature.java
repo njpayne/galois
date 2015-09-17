@@ -5,7 +5,7 @@ import java.io.*;
 import java.math.*;
 
 /**
- * Created by nathanielpayne on 9/10/2015. This is for the "temperature basic" program on CG"
+ * Created by nathanielpayne on 9/10/2015. This is for the "temperature basic" program on CG
  */
 public class temperature {
     public static void main(String args[]) {

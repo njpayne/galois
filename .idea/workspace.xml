@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03fe0866-89ac-4d32-b368-764923e6ceaf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/games/defibrillators.java" afterPath="$PROJECT_DIR$/src/games/defibrillators.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/games/descent.java" afterPath="$PROJECT_DIR$/src/games/descent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/games/horseracingdual.java" afterPath="$PROJECT_DIR$/src/games/horseracingdual.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/games/ascii.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/games/temperature.java" afterPath="$PROJECT_DIR$/src/games/temperature.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="galois.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,16 +39,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="week.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/selections/week.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="flip.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/selections/flip.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,13 +69,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="descent.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="descent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/games/descent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6806358">
-              <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ascii.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/games/ascii.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8352601">
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#556#564#0" expanded="true" />
+                <element signature="e#748#757#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/src/games/temperature.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="92" />
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -176,16 +180,24 @@
         <option value="$PROJECT_DIR$/src/games/thor.java" />
         <option value="$PROJECT_DIR$/src/games/chasmbasic.java" />
         <option value="$PROJECT_DIR$/src/games/mars.java" />
-        <option value="$PROJECT_DIR$/src/games/temperature.java" />
         <option value="$PROJECT_DIR$/src/games/horseracingdual.java" />
         <option value="$PROJECT_DIR$/src/games/defibrillators.java" />
         <option value="$PROJECT_DIR$/src/games/descent.java" />
+        <option value="$PROJECT_DIR$/src/games/temperature.java" />
+        <option value="$PROJECT_DIR$/src/games/ascii.java" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="NamedScopeManager">
     <order />
@@ -219,9 +231,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,6 +305,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -752,12 +764,13 @@
       <workItem from="1442005918907" duration="10141000" />
       <workItem from="1442131255469" duration="2811000" />
       <workItem from="1442207199039" duration="595000" />
-      <workItem from="1442262182350" duration="3777000" />
+      <workItem from="1442262182350" duration="4976000" />
+      <workItem from="1442466788609" duration="1403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55296000" />
+    <option name="totallyTimeSpent" value="57898000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -846,13 +859,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/elementary/feet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/elementary/pounds.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1133,7 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="64" selection-start-line="8" selection-start-column="64" selection-end-line="8" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1209,22 +1214,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/games/temperature.java">
+    <entry file="file://$PROJECT_DIR$/src/games/descent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="92" />
+          <caret line="89" column="46" selection-start-line="89" selection-start-column="46" selection-end-line="89" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/games/descent.java">
+    <entry file="file://$PROJECT_DIR$/src/games/temperature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6806358">
-          <caret line="101" column="51" selection-start-line="101" selection-start-column="51" selection-end-line="101" selection-end-column="51" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/games/ascii.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8352601">
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#556#564#0" expanded="true" />
+            <element signature="e#748#757#0" expanded="true" />
           </folding>
         </state>
       </provider>
