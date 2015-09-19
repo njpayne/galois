@@ -5,7 +5,7 @@ import java.io.*;
 import java.math.*;
 
 /**
- * Created by nathanielpayne on 9/17/2015.
+ * Created by nathanielpayne on 9/17/2015. This is for the "MIME" program on CG
  */
 public class mime {
     public static void main(String args[]) {
