@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="03fe0866-89ac-4d32-b368-764923e6ceaf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/games/mime.java" afterPath="$PROJECT_DIR$/src/games/mime.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="galois.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,8 +70,8 @@
       <file leaf-file-name="mime.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/games/mime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36127168">
-              <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+            <state vertical-scroll-proportion="0.28757226">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#283#299#0" expanded="true" />
@@ -765,12 +764,12 @@
       <workItem from="1442207199039" duration="595000" />
       <workItem from="1442262182350" duration="4976000" />
       <workItem from="1442466788609" duration="2963000" />
-      <workItem from="1442633865610" duration="1939000" />
+      <workItem from="1442633865610" duration="2591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61397000" />
+    <option name="totallyTimeSpent" value="62049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1232,8 +1231,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/games/mime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36127168">
-          <caret line="18" column="70" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        <state vertical-scroll-proportion="0.28757226">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#283#299#0" expanded="true" />

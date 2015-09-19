@@ -13,6 +13,7 @@ public class mime {
         Map<String, String> types = new HashMap<String, String>();
         // Note that a Map is an object that maps keys to values.
         // A map cannot contain duplicate keys: Each key can map to at most one value.
+        // Note that the basic operations of Map (put, get, containsKey, containsValue, size, and isEmpty) behave exactly like their counterparts in Hashtable.
 
         int N = in.nextInt(); // Number of elements which make up the association table
         in.nextLine();
