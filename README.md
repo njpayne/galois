@@ -108,6 +108,7 @@ a point with x- and y-coordinates and determines whether the point is inside the
 ### Mathematical Functions, Characters, Strings ###
 
 ### Loops ###
+- Create a program that, for every string that is input, determines whether the string is a palindrome!
 
 ### Methods ###
 
