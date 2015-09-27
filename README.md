@@ -80,19 +80,13 @@ the user to enter a, b, c, d, e, and f and displays the result. If ad - bc is 0,
 
 - Write a program that displays a random coordinate in a rectangle. The rectangle is centered at (0, 0) with width 100 and height 200.
 
-- Write a program that plays the popular scissor-rockpaper
-game. (A scissor can cut a paper, a rock can knock a scissor, and a paper can wrap a rock.) The program randomly generates a number 0, 1, or 2 representing
-scissor, rock, and paper. The program prompts the user to enter a number 0, 1, or 2 and displays a message indicating whether the user or the computer wins, loses,
-or draws.
+- Write a program that plays the popular scissor-rockpaper game. (A scissor can cut a paper, a rock can knock a scissor, and a paper can wrap a rock.) The program randomly generates a number 0, 1, or 2 representing scissor, rock, and paper. The program prompts the user to enter a number 0, 1, or 2 and displays a message indicating whether the user or the computer wins, loses, or draws.
 
 - Write a program that reads three edges for a triangle and computes the perimeter if the input is valid. Otherwise, display that the input is invalid. The input is valid if the sum of every pair of two edges is greater than the remaining edge.
+ 
+- Write a program that prompts the user to enter a point (x, y) and checks whether the point is within the circle centered at (0, 0) with radius 10. For example, (4, 5) is inside the circle and (9, 9) is outside the circle. (Hint: A point is in the circle if its distance to (0, 0) is less than or equal to 10. The formula for computing the distance is 2(x2 - x1)2 + (y2 - y1)2. Test your program to cover all cases.)
 
-- Write a program that prompts the user to enter a
-point (x, y) and checks whether the point is within the circle centered at (0, 0) with radius 10. For example, (4, 5) is inside the circle and (9, 9) is outside the
-circle. (Hint: A point is in the circle if its distance to (0, 0) is less than or equal to 10. The formula for computing the distance is 2(x2 - x1)2 + (y2 - y1)2. Test your program to cover all cases.)
-
-- Write a program that prompts the user to enter
-a point (x, y) and checks whether the point is within the rectangle centered at (0, 0) with width 10 and height 5. For example, (2, 2) is inside the rectangle and (6, 4) is outside the rectangle, as shown in Figure 3.7b. (Hint: A point is in the rectangle if its horizontal distance to (0, 0) is less than or equal to 10 / 2 and its vertical distance to (0, 0) is less than or equal to 5.0 / 2. Test your program to cover all cases.)
+- Write a program that prompts the user to enter a point (x, y) and checks whether the point is within the rectangle centered at (0, 0) with width 10 and height 5. For example, (2, 2) is inside the rectangle and (6, 4) is outside the rectangle, as shown in Figure 3.7b. (Hint: A point is in the rectangle if its horizontal distance to (0, 0) is less than or equal to 10 / 2 and its vertical distance to (0, 0) is less than or equal to 5.0 / 2. Test your program to cover all cases.)
 
 - Write a program that simulates picking a card from a deck of 52 cards. Your program should display the rank (Ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, Jack, Queen, King) and suit (Clubs, Diamonds, Hearts, Spades) of the card.
 
@@ -108,7 +102,7 @@ a point with x- and y-coordinates and determines whether the point is inside the
 ### Mathematical Functions, Characters, Strings ###
 
 ### Loops ###
-- Create a program that, for every string that is input, determines whether the string is a palindrome!
+- Create a program that, for every string that is input, determines whether the string is a palindrome! **(Program completed September 22, 2015 for CodinGame)**
 
 ### Methods ###
 
@@ -133,6 +127,7 @@ a point with x- and y-coordinates and determines whether the point is inside the
 ### Binary I/O ###
 
 ### Recursion ###
+- Output the first N numbers of the Fibonnaci sequence **(Program completed September 26, 2015 for CodinGame)**
 
 ### Generics ###
 

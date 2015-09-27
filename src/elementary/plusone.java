@@ -1,4 +1,4 @@
-package clashes;
+package elementary;
 
 import java.util.*;
 import java.math.*;
