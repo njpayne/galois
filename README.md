@@ -100,7 +100,7 @@ a point with x- and y-coordinates and determines whether the point is inside the
 - Write a program that prompts the user to enter the exchange rate from currency in U.S. dollars to Chinese RMB. Prompt the user to enter 0 to convert from U.S. dollars to Chinese RMB and 1 to convert from Chinese RMB and U.S. dollars. Prompt the user to enter the amount in U.S. dollars or Chinese RMB to convert it to Chinese RMB or U.S. dollars, respectively.
 
 ### Mathematical Functions, Characters, Strings ###
-- Create a program that, reverses the position of each word in a sentence given as input. **(Program completed September 28, 2015 for CodinGame Clash)** 
+- Create a program that, reverses the position of each word in a sentence given as input. **(Program completed September 27, 2015 for CodinGame Clash)** 
 
 ### Loops ###
 - Create a program that, for every string that is input, determines whether the string is a palindrome! **(Program completed September 22, 2015 for CodinGame)**
