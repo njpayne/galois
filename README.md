@@ -78,7 +78,7 @@ the user to enter a, b, c, d, e, and f and displays the result. If ad - bc is 0,
 
 - Write a program that lets the user guess whether the flip of a coin results in heads or tails. The program randomly generates an integer 0 or 1, which represents head or tail. The program prompts the user to enter a guess and reports whether the guess is correct or incorrect. **(Program completed September 5, 2015 flying back from Toronto)**
 
-- Write a program that displays a random coordinate in a rectangle. The rectangle is centered at (0, 0) with width 100 and height 200.
+- Write a program that displays a random coordinate in a rectangle. The rectangle is centered at (0, 0) with width 100 and height 200. **(Program completed September 5, 2015 flying back from Toronto)**
 
 - Write a program that plays the popular scissor-rockpaper game. (A scissor can cut a paper, a rock can knock a scissor, and a paper can wrap a rock.) The program randomly generates a number 0, 1, or 2 representing scissor, rock, and paper. The program prompts the user to enter a number 0, 1, or 2 and displays a message indicating whether the user or the computer wins, loses, or draws.
 
