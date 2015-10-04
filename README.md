@@ -106,6 +106,7 @@ a point with x- and y-coordinates and determines whether the point is inside the
 - Create a program that, for every string that is input, determines whether the string is a palindrome! **(Program completed September 22, 2015 for CodinGame)**
 
 ### Methods ###
+- A ball is dropped and bounces. At each rebound the ball reaches half the height of the previous rebound. How high must the ball be dropped so that it reaches exactly the height H after the sixth rebound? **(Program completed October 4, 2015 for CodinGame)**
 
 ### Single Dimensional Arrays ###
 
